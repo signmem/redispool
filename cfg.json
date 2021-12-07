@@ -1,0 +1,16 @@
+{
+    "debug":true,
+    "testline": 60000,
+    "loglevel": "debug",
+    "role":     "server",  // client, server
+    "logfile": "./app.log",
+    "http": {
+	"enabled": true,
+        "listen": "0.0.0.0:8081"
+    }, 
+    "redis": {
+        "server": "",
+        "password": "",
+        "defaultdb": 0
+    }
+}
